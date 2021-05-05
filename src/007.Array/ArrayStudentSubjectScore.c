@@ -1,4 +1,5 @@
 #include<stdio.h>
+//실패 집에서 완료시키기.
 int main(){
 	int score[3][2];
 	int i, j;
