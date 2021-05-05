@@ -1,5 +1,5 @@
 #include<stdio.h>
-//성공
+//성공/ if만 값이 나옴.
 int main()
 {
 	int num;
