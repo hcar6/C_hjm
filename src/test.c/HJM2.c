@@ -1,15 +1,22 @@
 #include<stdio.h>
-// 2부터 10까지의합 54임.
+
 int main(){
 	
-	int a, b = 10, c = 0;
-	for (a = 2; a <= 10; ++a)
-		
+	int i, j;
+	
+	for (i = 0; i < 5; i++)
 	{
-		c += a;
+		for(j = 4; j >= i; j--)
+		{
+			printf("* ");
+		
+		}
+		printf("\n");
+	
 	}
-	printf("2부터 %d 까지의 합 : %d \n", b, c);
 	
-	return ;
+	return 0;
+	
 }
-	
+//첫번째 별 찍는걸 while문으로 하는거
+	//두번째 국어 수학이지만 영어 점수까지와 각 학생들의 평균값을 구해서 결과값을 나타내도록 만들기.

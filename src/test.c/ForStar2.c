@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-	
+	//실행x 무한 반복됨.
 	int i, j, k;
 	
 	for (i = 0; ((i < 5)*2)-1; i++)
