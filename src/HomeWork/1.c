@@ -29,7 +29,7 @@ int main()
         }
     }
 
-    for (i = 0; i < 3; i++) 
+    for (i = 0; i < 3; i++)  
     {
         printf("%d 번째 학생의 국어 점수 : %d, 수학 점수 : %d, 영어 점수 : %d, 평균 값(2번째 자리까지) : %d \n", i + 1, score[i][0], score[i][1], score[i][2], ((score[i][0]) + (score[i][1]) + (score[i][2])) / 3);
     }
