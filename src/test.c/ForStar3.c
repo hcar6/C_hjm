@@ -1,4 +1,4 @@
-#include<stdio.h>
+치ㅡ#include<stdio.h>
 
 int main(){
 	

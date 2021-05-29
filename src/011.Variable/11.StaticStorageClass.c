@@ -10,5 +10,5 @@ int main(){
 
 void func(void){
 	static int i = 5;
-	printf("i : %d, count : %d \n", i--, count);
+	printf("i : %d, count : %d \n", i, count);
 }

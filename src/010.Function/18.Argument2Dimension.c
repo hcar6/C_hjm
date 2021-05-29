@@ -1,7 +1,7 @@
-#include <stdio.h>
+#include <stdio.h> // 도서관 프로젝트때 쓰일 예정
 /* 열의 개수가 2 개인 이차원 배열과, 총 행의 수를 인자로 받는다. */
-//int add1_element(int (*arr)[2], int row);
-int add1_element(int arr[][2], int row); //이렇게도 가능(함수의 인자에서만)
+int add1_element(int (*arr)[2], int row);
+//int add1_element(int arr[][2], int row); //이렇게도 가능(함수의 인자에서만)
 int main() {
     int arr[3][2];
     int i, j;
